@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3885216555620400931}
   - component: {fileID: 5467354792868440265}
   - component: {fileID: -7714050334344459}
+  - component: {fileID: 2045572828082378912}
   m_Layer: 6
   m_Name: Particle
   m_TagString: Particle
@@ -137,3 +138,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &2045572828082378912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080484857734984927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7756a9e380ed7594f99f9208c32ff5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifespanSeconds: 30
