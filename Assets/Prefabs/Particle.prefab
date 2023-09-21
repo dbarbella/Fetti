@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7714050334344459}
   - component: {fileID: 2045572828082378912}
   - component: {fileID: 8140854072932889545}
+  - component: {fileID: 7061295153088805955}
   m_Layer: 6
   m_Name: Particle
   m_TagString: Particle
@@ -57,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1349bd01abcb22244a32f18b0ced6e67, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -165,3 +166,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <EffectOnDestroyPrefab>k__BackingField: {fileID: 8564669068769057510, guid: a50c397b351e4704ca0344a244232ba0, type: 3}
+--- !u!114 &7061295153088805955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080484857734984927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40659eccf50ba44ead61f470448d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
