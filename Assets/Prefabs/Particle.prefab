@@ -178,3 +178,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40659eccf50ba44ead61f470448d5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colorMode: TransRights
