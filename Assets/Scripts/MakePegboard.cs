@@ -21,9 +21,10 @@ public class MakePegboard : MonoBehaviour
     private Vector2 pegPosition;
 
     public GameObject peg;
+    private GameObject nextPeg;
     public int pegsPerRow;
     public int pegRows;
-    public float pegScale;
+    public float pegScale = 1;
     
     void Start()
     {
@@ -39,7 +40,8 @@ public class MakePegboard : MonoBehaviour
             for (int i = 0; i < pegsPerRow; i++)
             {
                 pegPosition = new Vector2(leftPosition + i * pegGapHorizontal + (offsetOn * horizontalOffset), nextVerticalPosition);
-                Instantiate(peg, pegPosition, transform.rotation);
+                nextPeg = Instantiate(peg, pegPosition, transform.rotation);
+                nextPeg.transform.localScale = new Vector3(pegScale, pegScale, 1);
             }
             offsetOn = offsetOn ^ 1; // If offsetOn equals 0, now it equals 1, and vice versa.
             nextVerticalPosition -= pegGapVertical;
